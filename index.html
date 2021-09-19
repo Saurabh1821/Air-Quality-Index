@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="#">Air Quality <span>Index</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a class="dropdown" href="#">Map <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="AQI/AQI/INDIA/PM 2.5 INDIA/index.html" target="_blank">Indian Map</a></li>
+                        <li><a href="AQI/AQI/pm2.5/qgis2web_2020_12_13-01_49_40_079040/index.html" target="_blank">Web Map</a></li>
+                        <li><a href="AQI/AQI/kanpur/qgis2web_2020_12_14-00_37_45_525553/index.html" target="_blank">Kanpur Map</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Data Repository</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Air</div>
+                <div class="text-2">Quality</div>
+                <div class="text-3"><span>Index</span></div>
+            </div>
+        </div>
+    </section>
+    <!-- picture section -->
+    <section class="picture-slider">
+            <div class="slider">
+                <div class="images">
+                    <input type="radio" name="slide" id="img1" checked>
+                    <input type="radio" name="slide" id="img2">
+                    <input type="radio" name="slide" id="img3">
+                    <input type="radio" name="slide" id="img4">
+
+                    <img src="image/pexels-michael-spadoni-813465.jpg" class="m1" alt="img1">
+                    <img src="image/pexels-elia-clerici-912110.jpg" class="m2" alt="img2">
+                    <img src="image/pexels-brett-sayles-1431822.jpg" class="m3" alt="img3">
+                    <img src="image/pexels-donald-tong-55787.jpg" class="m4" alt="img4">
+                </div>
+                <div class="dots">
+                    <label for="img1"></label>
+                    <label for="img2"></label>
+                    <label for="img3"></label>
+                    <label for="img4"></label>
+                </div>
+            </div>
+    </section>
+    
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="image/sky2.jpg" alt="" >
+                </div>
+                <div class="column right">
+                    <p>
+                        Air pollution is that hot topic of modern world, where each one of person is somehow are affected by it.
+                    </p>
+                    <p>
+                            This website tries to provide a solution which to say is not new but on small level it is more effective that any big project on this same topic.
+                    </p>
+                    <p>This website tries to provide <strong>Real-Time</strong> based Maps of India, World and Kanpur city covering particulates <strong>PM 2.5</strong> and <strong>PM 10</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
