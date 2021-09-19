@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#map {
+    width: 100%;
+    height: 90vh;
+}
+.button-container{
+    position: absolute;
+    bottom: 10vh;
+    display: inline-flex;
+    text-align: right;
+}
+.button-container button{
+    text-decoration: none;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 110px;
+    padding: 0 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.label1{
+    background-color: rgba(255,255,255,.3);
+}
+.label2{
+    background-color: rgba(0,153,102,.75);
+}
+.label3{
+    background-color: rgba(255,222,51,.75);
+}
+.label4{
+    background-color: rgba(255,153,51,.75);
+}
+.label5{
+    background-color: rgba(204,0,51,.75);
+}
+.label6{
+    background-color: rgba(102,0,153,.75);
+}
+.label7{
+    background-color: rgba(126,0,35,.75);
+}
+.map{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    z-index: 1000;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.map button {
+    text-decoration: none;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 90x;
+    padding: 0 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: rgba(82, 149, 151, 0.75);
+}
